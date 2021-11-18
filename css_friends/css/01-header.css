@@ -1,2 +1,13 @@
 /* PHASE 1: Header */
 
+body {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    font-weight: 400;
+}
+
+.header {
+    background-color: red;
+    color: white;
+}
