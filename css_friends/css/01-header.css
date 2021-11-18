@@ -11,3 +11,41 @@ body {
     background-color: red;
     color: white;
 }
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    /* width: 600px; */
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    /* border: 3px solid green ; */
+}
+
+.header a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.header-logo:hover, .header-list li:hover {
+    background-color: black;
+}
+
+.header-logo {
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+
+
+.header-list li {
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+
+/* .header-list:last-child {
+    border-right: solid 1px white;
+} */
